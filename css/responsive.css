@@ -1,1 +1,43 @@
-/* Soluzione qui */
+/* Tablet Responsive */
+@media screen and (min-width: 768px) {
+  #logo {
+    position: absolute;
+    left: 0;
+    margin: 10px;
+    font-size: 42px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .recipe-origin {
+    display: inline;
+  }
+
+  .recipe-name {
+    font-size: 32px;
+  }
+
+  .quick-notes > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes > ul li {
+    flex: 0 0 200px;
+  }
+
+  .social-networks .btn {
+    width: calc(100% / 5);
+  }
+
+  .ads {
+    display: inline-block;
+  }
+
+  .clearfix img {
+    float: left;
+    margin: 10px;
+  }
+}
