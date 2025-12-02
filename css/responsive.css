@@ -80,3 +80,15 @@
     text-align: left;
   }
 }
+
+/* Large Mobile Responsive */
+@media screen and (min-width: 576px) {
+  .clearfix img {
+    float: left;
+    margin: 10px;
+  }
+
+  .social-networks .btn {
+    width: calc(100% / 5);
+  }
+}
